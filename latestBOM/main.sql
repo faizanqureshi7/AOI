@@ -62,3 +62,5 @@ LEFT JOIN EGP_ITEM_REVISIONS_B c_rev
     AND (c_rev.END_EFFECTIVITY_DATE IS NULL OR c_rev.END_EFFECTIVITY_DATE > SYSDATE)
 
 WHERE c_item.ITEM_NUMBER = '142301000633' -- Swap this to test different items
+
+-- new revs added to the main sql query
